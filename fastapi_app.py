@@ -12,7 +12,7 @@ with open("model/xgb_model.pkl", "rb") as f:
 
 # Define the input data model for prediction
 class UserData(BaseModel):
-    Gender: str  # 1 for Male, 0 for Female
+    Gender: str
     Age: int
     EstimatedSalary: int
 
