@@ -32,22 +32,22 @@ Live App 👉 [Try It on Streamlit!](https://socialmedia-ads-purchase-prediction
 | Uvicorn      | ASGI server for FastAPI       |
 
 
+## 📊 Data Source
+
+The dataset used for this project is sourced from Kaggle:  
+[Social Network Ads Dataset](https://www.kaggle.com/datasets/rakeshrau/social-network-ads)
+
+
 ## 🧠 ML Model Details
 <b>Dataset</b>: Social Network Ads (includes Gender, Age, EstimatedSalary)
 
-<b>Model</b>: Logistic Regression
+<b>Model</b>: XGBoost Classifier with Hyper-parameter tuning
 
 <b>Pipeline</b>:
 
    - ```PowerTransformer``` for numerical features (Age and EstimatedSalary)
    - ```OneHotEncoder``` for categorical features (Gender)
    - Combined via ```ColumnTransformer```
-
-
-## 📊 Data Source
-
-The dataset used for this project is sourced from Kaggle:  
-[Social Network Ads Dataset](https://www.kaggle.com/datasets/rakeshrau/social-network-ads)
 
 
 ## 🛠️ Setup Instructions
