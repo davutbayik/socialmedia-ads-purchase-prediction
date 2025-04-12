@@ -1,35 +1,24 @@
-from fastapi import FastAPI
-from pydantic import BaseModel
-import pickle
-import pandas as pd
+import subprocess
+import time
 
-# Initialize FastAPI
-app = FastAPI()
+# Function to run FastAPI using uvicorn
+def run_fastapi():
+    print("Starting FastAPI...\n")
+    subprocess.Popen(["uvicorn", "fastapi_app:app", "--reload"])
 
-# Load the ML model
-with open("model/xgb_model.pkl", "rb") as f:
-    model = pickle.load(f)
+# Function to run Streamlit
+def run_streamlit():
+    print("Starting Streamlit...\n")
+    subprocess.Popen(["streamlit", "run", "streamlit_app.py"])
 
-# Define the input data model for prediction
-class UserData(BaseModel):
-    Gender: str  # 1 for Male, 0 for Female
-    Age: int
-    EstimatedSalary: int
+# Main function to run both
+def main():
+    run_fastapi()
+    run_streamlit()
 
-@app.get("/")
-def read_root():
-    return {"message": "Social Network Ad Purchasing Predictor API is running. Use POST /predict to get predictions."}
+    # Keep the script running to allow both processes to continue
+    while True:
+        time.sleep(1)
 
-@app.post("/predict")
-def predict(user_data: UserData):
-    # Prepare data for prediction
-    data = pd.DataFrame({
-        'Gender': [user_data.Gender],
-        'Age': [user_data.Age],
-        'EstimatedSalary': [user_data.EstimatedSalary]
-    })
-    
-    prediction = model.predict(data)
-    
-    # Return the prediction result (1 for Purchased, 0 for Not Purchased)
-    return {"purchase": "Purchased" if prediction[0] == 1 else "Not Purchased"}
+if __name__ == "__main__":
+    main()
