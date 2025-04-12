@@ -11,9 +11,9 @@ def run_streamlit():
     print("Starting Streamlit...\n")
     subprocess.Popen(["streamlit", "run", "streamlit_app.py"])
 
-# Main function to run both
+# Main function to run both (after server deployment, no need to run fastapi app; but for local launch, run both)
 def main():
-    run_fastapi()
+    #run_fastapi()
     run_streamlit()
 
     # Keep the script running to allow both processes to continue

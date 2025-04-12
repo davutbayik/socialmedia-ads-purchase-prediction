@@ -1,5 +1,13 @@
 import streamlit as st
 import requests
+import json
+
+st.set_page_config(
+    page_title="Social Ads Predictor 🚀",
+    page_icon="📊",
+    layout="centered",
+    initial_sidebar_state="auto"
+)
 
 # Streamlit page title
 st.title("🌐 Social Network Ads Prediction")
@@ -22,7 +30,7 @@ predict_button = st.button("Predict Purchase")
 # API URL for FastAPI
 
 #API_URL = "http://localhost:8000/predict" # For local deploy
-API_URL = "https://socialmedia-ads-predictor-fastapi.streamlit.app/predict" # For streamlit deploy
+API_URL  = "http://blank-jsandye-davutbayik-753e5fbe.koyeb.app/predict" # For my koyeb deployment endpoint of the fastapi app
 
 # If the button is clicked, send the data to the FastAPI model
 if predict_button:
