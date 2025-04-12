@@ -20,7 +20,9 @@ salary = st.slider("Estimated Salary", min_value=15000, max_value=150000, value=
 predict_button = st.button("Predict Purchase")
 
 # API URL for FastAPI
-API_URL = "http://localhost:8000/predict"
+
+#API_URL = "http://localhost:8000/predict" # For local deploy
+API_URL = "https://socialmedia-ads-predictor.streamlit.app/predict" # For streamlit deploy
 
 # If the button is clicked, send the data to the FastAPI model
 if predict_button:
