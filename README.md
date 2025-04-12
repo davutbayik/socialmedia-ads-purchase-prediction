@@ -20,7 +20,6 @@ Live App 👉 [Try It on Streamlit!](https://socialmedia-ads-purchase-prediction
 - 🧪 FastAPI backend for live predictions
 - ⚡ Clean and responsive UI with emoji-powered UX
 
----
 
 ## 🧰 Tech Stack
 
@@ -32,7 +31,6 @@ Live App 👉 [Try It on Streamlit!](https://socialmedia-ads-purchase-prediction
 | Python       | Core language                 |
 | Uvicorn      | ASGI server for FastAPI       |
 
----
 
 ## 🧠 ML Model Details
 <b>Dataset</b>: Social Network Ads (includes Gender, Age, EstimatedSalary)
@@ -45,10 +43,12 @@ Live App 👉 [Try It on Streamlit!](https://socialmedia-ads-purchase-prediction
    - ```OneHotEncoder``` for categorical features (Gender)
    - Combined via ```ColumnTransformer```
 
+
 ## 📊 Data Source
 
 The dataset used for this project is sourced from Kaggle:  
 [Social Network Ads Dataset](https://www.kaggle.com/datasets/rakeshrau/social-network-ads)
+
 
 ## 🛠️ Setup Instructions
 
@@ -78,7 +78,6 @@ python run_app.py
    - 🔵 [<b>Streamlit App</b>](https://socialmedia-ads-purchase-prediction.onrender.com/): To be deployed on services like Koyeb, Render or Streamlit Community Cloud
    - ⚙️ <b>FastAPI Backend</b>: To be deployed on services like Koyeb, Render, Railway, or Fly.io
 
----
 
 ## 📷 Screenshot
 ![Streamlit App](assets/streamlit_app.png)
@@ -87,6 +86,7 @@ python run_app.py
 
 Contributions, issues, and feature requests are welcome!  
 Feel free to fork the repository and submit a pull request.
+
 
 ## 📄 License
 
