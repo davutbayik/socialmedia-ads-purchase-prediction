@@ -34,6 +34,22 @@ Live App 👉 [Try It on Streamlit!](https://socialmedia-ads-purchase-prediction
 
 ---
 
+## 🧠 ML Model Details
+<b>Dataset</b>: Social Network Ads (includes Gender, Age, EstimatedSalary)
+
+<b>Model</b>: Logistic Regression
+
+<b>Pipeline</b>:
+
+   - ```PowerTransformer``` for numerical features (Age and EstimatedSalary)
+   - ```OneHotEncoder``` for categorical features (Gender)
+   - Combined via ```ColumnTransformer```
+
+## 📊 Data Source
+
+The dataset used for this project is sourced from Kaggle:  
+[Social Network Ads Dataset](https://www.kaggle.com/datasets/rakeshrau/social-network-ads)
+
 ## 🛠️ Setup Instructions
 
 1. **Clone the repository**  
@@ -55,19 +71,6 @@ python run_app.py
 ```
 - FastAPI will be available at (locally): ```http://127.0.0.1:8000```
 - Streamlit app will be available at (locally): ```http://localhost:8501```
-
----
-
-## 🧠 ML Model Details
-<b>Dataset</b>: Social Network Ads (includes Gender, Age, EstimatedSalary)
-
-<b>Model</b>: Logistic Regression
-
-<b>Pipeline</b>:
-
-   - ```PowerTransformer``` for numerical features (Age and EstimatedSalary)
-   - ```OneHotEncoder``` for categorical features (Gender)
-   - Combined via ```ColumnTransformer```
 
 ---
 
