@@ -45,7 +45,7 @@ if predict_button:
 
     try:
         result = response.json()
-        st.success(f"Social Media Ads --> {result['purchase']}")
+        st.success(f"Social Media Ads --> ***{result['purchase']}***")
     except Exception as e:
         st.error("Failed to decode JSON from API response.")
         st.error(str(e))
