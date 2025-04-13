@@ -10,9 +10,7 @@ A machine learning-powered web app that predicts whether a user will purchase a 
 
 Live App 👉 [Try It on Streamlit!](https://socialmedia-ads-purchase-prediction.onrender.com/)
 
----
-
-## 🚀 Features
+### 🚀 Features
 
 - 📈 Predict purchase behavior in real-time
 - 🧠 ML pipeline with preprocessor and trained model
@@ -20,8 +18,7 @@ Live App 👉 [Try It on Streamlit!](https://socialmedia-ads-purchase-prediction
 - 🧪 FastAPI backend for live predictions
 - ⚡ Clean and responsive UI with emoji-powered UX
 
-
-## 🧰 Tech Stack
+### 🧰 Tech Stack
 
 | Tool         | Role                          |
 |--------------|-------------------------------|
@@ -32,13 +29,12 @@ Live App 👉 [Try It on Streamlit!](https://socialmedia-ads-purchase-prediction
 | Uvicorn      | ASGI server for FastAPI       |
 
 
-## 📊 Data Source
+### 📊 Data Source
 
 The dataset used for this project is sourced from Kaggle:  
 [Social Network Ads Dataset](https://www.kaggle.com/datasets/rakeshrau/social-network-ads)
 
-
-## 🧠 ML Model Details
+### 🧠 ML Model Details
 <b>Dataset</b>: Social Network Ads (includes Gender, Age, EstimatedSalary)
 
 <b>Model</b>: XGBoost Classifier with Hyper-parameter tuning
@@ -49,8 +45,7 @@ The dataset used for this project is sourced from Kaggle:
    - ```OneHotEncoder``` for categorical features (Gender)
    - Combined via ```ColumnTransformer```
 
-
-## 🛠️ Setup Instructions
+### 🛠️ Setup Instructions
 
 1. **Clone the repository**  
 ```bash
@@ -72,24 +67,30 @@ python run_app.py
 - FastAPI will be available at (locally): ```http://127.0.0.1:8000```
 - Streamlit app will be available at (locally): ```http://localhost:8501```
 
----
-
-## 📡 Deployment
+### 📡 Deployment
    - 🔵 [<b>Streamlit App</b>](https://socialmedia-ads-purchase-prediction.onrender.com/): To be deployed on services like Koyeb, Render or Streamlit Community Cloud
    - ⚙️ <b>FastAPI Backend</b>: To be deployed on services like Koyeb, Render, Railway, or Fly.io
 
 
-## 📷 Screenshot
+### 📷 Screenshot
+Live example of the app
+
 ![Streamlit App](assets/streamlit_app.png)
 
-## 🤝 Contributing
+### 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!  
 Feel free to fork the repository and submit a pull request.
 
+### 📄 License
 
-## 📄 License
+This project is licensed under the terms of the [MIT License](LICENSE).  
+You are free to use, modify, and distribute this software as long as you include the original license.
 
-This project is licensed under the **MIT License**.
+### 📬 Contact
 
-Made with ❤️ by [@davutbayik](https://github.com/davutbayik)
+Made with ❤️ by [Davut Bayık](https://github.com/davutbayik) — feel free to reach out via GitHub for questions, feedback, or collaboration ideas.
+
+---
+
+⭐ If you found this project helpful, consider giving it a star!
