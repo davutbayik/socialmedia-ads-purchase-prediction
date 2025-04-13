@@ -79,8 +79,13 @@ Live example of the app
 
 ### 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!  
-Feel free to fork the repository and submit a pull request.
+Contributions are welcome and appreciated! If you’d like to improve this project, here’s how you can help:
+
+- 🐞 Report bugs or issues.
+- 🌟 Suggest new features or improvements.
+- 🔀 Fork the repo, make your changes, and submit a pull request.
+
+Please make sure your code follows best practices and includes proper documentation where necessary.
 
 ### 📄 License
 
