@@ -8,7 +8,7 @@
 
 A machine learning-powered web app that predicts whether a user will purchase a product based on their **Gender**, **Age**, and **Estimated Salary**.
 
-Live App 👉 [Try It on Streamlit!](https://socialmedia-ads-purchase-prediction.onrender.com/)
+👉 [Live App](https://socialmedia-ads-purchase-prediction.onrender.com/)
 
 ### 🚀 Features
 
@@ -48,28 +48,26 @@ The dataset used for this project is sourced from Kaggle:
 ### 🛠️ Setup Instructions
 
 1. **Clone the repository**  
-```bash
-git clone https://github.com/davutbayik/socialmedia-ads-purchase-prediction.git
-cd socialmedia-ads-purchase-prediction
-```
+   ```bash
+   git clone https://github.com/davutbayik/socialmedia-ads-purchase-prediction.git
+   cd socialmedia-ads-purchase-prediction
+
 
 2. **Create and activate a virtual environment (Optional-Recommended)**:
-```bash
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-```
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 3. **Install dependencies**  
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
 
 4. **Run the application**
 
 Use the provided Python script to launch both the API and UI (comment server URL and uncomment local URL before running from ```streamlit_app.py```):
- ```bash
-python run_app.py
-```
+    ```bash
+   python run_app.py
+
 - FastAPI will be available at (locally): ```http://127.0.0.1:8000```
 - Streamlit app will be available at (locally): ```http://localhost:8501```
 
