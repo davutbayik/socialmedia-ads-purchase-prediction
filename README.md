@@ -64,12 +64,12 @@ The dataset used for this project is sourced from Kaggle:
 
 4. **Run the application**
 
-Use the provided Python script to launch both the API and UI (comment server URL and uncomment local URL before running from ```streamlit_app.py```):
- ```bash
-python run_app.py
-```
-- FastAPI will be available at (locally): ```http://127.0.0.1:8000```
-- Streamlit app will be available at (locally): ```http://localhost:8501```
+   Use the provided Python script to launch both the API and UI (comment server URL and uncomment local URL before running from ```streamlit_app.py```):
+    ```bash
+   python run_app.py
+   ```
+   - FastAPI will be available at (locally): ```http://127.0.0.1:8000```
+   - Streamlit app will be available at (locally): ```http://localhost:8501```
 
 ### 📡 Deployment
    - 🔵 [<b>Streamlit App</b>](https://socialmedia-ads-purchase-prediction.onrender.com/): To be deployed on services like Koyeb, Render or Streamlit Community Cloud
