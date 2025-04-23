@@ -1,7 +1,6 @@
 # 📊 Social Media Ads Purchase Prediction
 
-** A machine learning-powered web app that predicts whether a user will purchase a product based on their ***Gender***, ***Age***, and ***Estimated Salary*** **.
-👉 [Live App](https://socialmedia-ads-purchase-prediction.onrender.com/)
+**A machine learning-powered web app that predicts whether a user will purchase a product based on their ***Gender***, ***Age***, and ***Estimated Salary*****.
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -10,6 +9,8 @@
 ![Made with love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
 
 ---
+
+👉 [Live App](https://socialmedia-ads-purchase-prediction.onrender.com/)
 
 ### 🚀 Features
 
