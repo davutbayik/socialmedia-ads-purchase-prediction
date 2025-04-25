@@ -54,7 +54,6 @@ The dataset used for this project is sourced from Kaggle:
    git clone https://github.com/davutbayik/socialmedia-ads-purchase-prediction.git
    cd socialmedia-ads-purchase-prediction
 
-
 2. **Create and activate a virtual environment (Optional-Recommended)**:
    ```bash
    python -m venv .venv
