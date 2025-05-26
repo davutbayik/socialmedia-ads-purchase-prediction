@@ -12,7 +12,7 @@ A machine learning-powered web app that predicts whether a user will purchase a 
 
 👉 [Live App](https://socialmedia-ads-purchase-prediction.onrender.com/)
 
-### 🚀 Features
+## 🚀 Features
 
 - 📈 Predict purchase behavior in real-time
 - 🧠 ML pipeline with preprocessor and trained model
@@ -31,12 +31,12 @@ A machine learning-powered web app that predicts whether a user will purchase a 
 | Uvicorn      | ASGI server for FastAPI       |
 
 
-### 📊 Data Source
+## 📊 Data Source
 
 The dataset used for this project is sourced from Kaggle:  
 [Social Network Ads Dataset](https://www.kaggle.com/datasets/rakeshrau/social-network-ads)
 
-### 🧠 ML Model Details
+## 🧠 ML Model Details
 <b>Dataset</b>: Social Network Ads (includes Gender, Age, EstimatedSalary)
 
 <b>Model</b>: XGBoost Classifier with Hyper-parameter tuning
@@ -47,7 +47,7 @@ The dataset used for this project is sourced from Kaggle:
    - ```OneHotEncoder``` for categorical features (Gender)
    - Combined via ```ColumnTransformer```
 
-### 🛠️ Setup Instructions
+## 🛠️ Setup Instructions
 
 1. **Clone the repository**  
    ```bash
@@ -72,15 +72,20 @@ The dataset used for this project is sourced from Kaggle:
    - FastAPI will be available at (locally): ```http://127.0.0.1:8000```
    - Streamlit app will be available at (locally): ```http://localhost:8501```
 
-### 📡 Deployment
+## 📡 Deployment
    - 🔵 [<b>Streamlit App</b>](https://socialmedia-ads-purchase-prediction.onrender.com/): To be deployed on services like Koyeb, Render or Streamlit Community Cloud
    - ⚙️ <b>FastAPI Backend</b>: To be deployed on services like Koyeb, Render, Railway, or Fly.io
 
-
-### 📷 Screenshot
+## 📷 Screenshot
 Live example of the app
 
 ![Streamlit App](assets/streamlit_app.png)
+
+## 🎥 Example Demo
+
+
+https://github.com/user-attachments/assets/6e3a524a-7a46-4f84-ba9c-542e5cac1bfb
+
 
 ### 🤝 Contributing
 
